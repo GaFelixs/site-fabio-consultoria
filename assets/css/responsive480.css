@@ -308,11 +308,12 @@
 
 .diagnostico{
   color:#616668;
-  font-family: 'Releway'; 
+  font-family: 'Releway';
   font-weight: 600;
-  height: 100px;
-  font-size: 20px;
+  height: auto;
+  font-size: 15px;
   padding-top: 20px;
+  padding-bottom: 14px;
 }
 
 .main-consultoriaTres-primeira {
