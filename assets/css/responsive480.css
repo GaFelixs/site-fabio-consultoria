@@ -222,13 +222,12 @@
 
 
 .main-consultoria-segunda {
-  background-color: #616668;
- 
-  padding-top: 50px;
-  padding-bottom: 50px;
-  
+  background-color: #1a1a1a;
+  padding: 50px 24px;
   display: flex;
-  flex-direction: column;  
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
 .main-textos {
@@ -240,21 +239,25 @@
 .texto-dourado {
   color: #f2e8c4;
   padding-top: 20px;
-  margin-bottom: 30px;
+  margin-bottom: 24px;
   font-size: 16px;
   font-family: 'Releway';
-  text-align: left;
-  font-weight: 500;  
+  text-align: center;
+  font-weight: 700;
+  letter-spacing: 1.5px;
 }
 
-
 .main-consultoriaDoisTexto {
-  color: #ffffff;
-  text-align: left;
-  line-height: 1.5;
-  font-family: 'Releway'; 
-  font-size: 12px;
-  font-weight: 200;  
+  color: #9a9490;
+  text-align: center;
+  line-height: 1.8;
+  font-family: 'Releway';
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.main-consultoriaDoisTexto p {
+  margin-bottom: 14px;
 }
 
 .foto { 

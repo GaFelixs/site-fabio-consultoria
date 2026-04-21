@@ -347,6 +347,14 @@ h1 {
   max-width: 520px;
 }
 
+.main-consultoriaDoisTexto p {
+  margin-bottom: 16px;
+}
+
+.main-consultoriaDoisTexto p:last-child {
+  margin-bottom: 0;
+}
+
 .foto {
   height: 380px;
   width: 290px;
