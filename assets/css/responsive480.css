@@ -68,25 +68,30 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 160px;
-  padding-left: 24px;
-  padding-right: 24px;
+  padding-top: 140px;
+  padding-left: 20px;
+  padding-right: 20px;
   text-align: center;
+  overflow: hidden;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .main-tag {
-  font-size: 9px;
-  letter-spacing: 3px;
+  font-size: 8px;
+  letter-spacing: 2px;
   text-align: center;
 }
 
 .main-titulo {
-  font-size: 24px;
+  font-size: 18px;
+  line-height: 1.5;
   text-align: center;
+  word-break: break-word;
 }
 
 .main-subtitulo {
-  font-size: 14px;
+  font-size: 13px;
   text-align: center;
 }
 
