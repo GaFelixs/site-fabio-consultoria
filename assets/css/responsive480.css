@@ -773,12 +773,12 @@ button:hover {
   background-color: transparent;
   border: 2px solid #b4361f;
   border-radius: 0;
-  padding: 14px 28px;
+  padding: 12px 20px;
   height: auto;
   width: auto;
   box-shadow: none;
-  font-size: 11px;
-  letter-spacing: 2px;
+  font-size: 8px;
+  letter-spacing: 1.5px;
   color: #b4361f;
   text-decoration: none;
   display: inline-flex;
