@@ -747,13 +747,15 @@ button:hover {
 
 .main-consultoria-secundaria-quatro{
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 150px;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  height: auto;
+  padding-top: 40px;
+  padding-bottom: 40px;
   padding-left: 24px;
   padding-right: 24px;
+  gap: 24px;
 }
 
 .main-consultoria-secundaria-textos-quatro{
