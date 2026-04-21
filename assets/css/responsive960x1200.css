@@ -1,0 +1,452 @@
+@media (min-width: 960px) and (max-width: 1200px){
+
+   /*HEADER - CABECALHO*/
+
+.menu nav li a{
+  color: #2c2c2c;
+  margin: 6px;
+  text-decoration: none;
+  padding-right: 20px;
+  font-size: 14px;
+  letter-spacing: 1.5px;
+  cursor: pointer;
+  font-family: 'Pier';
+  font-weight: 500;
+}
+
+.instagram {
+  
+  margin-right: 50px;
+  padding-top:4px ;  
+  cursor: pointer;
+}
+
+
+/* MAIN - TELA PRINNCIPAL*/
+
+.main-background {
+  
+  background-image: url(../imagens/layoutFabioOriginal1200.png);  
+    
+}
+
+.main-texto1 {  
+  font-size: 20px; 
+  padding-bottom: 20px;
+}
+
+.main-button { 
+  height: 38px;
+  width: 410px; 
+  font-size: 16px;
+ 
+}
+
+/*MAIN - SEGUNDA SEÇÃO*/
+
+.texto-cinza {  
+  font-size: 30px;       
+}
+
+
+.main-consultoria{
+    display: flex;
+    justify-content: center;       
+}
+
+.main-textoTituloConsultoria1 {  
+  font-size: 18px;        
+}
+
+.main-textoDescricaoConsultoria1 {
+  font-size: 14px;   
+}
+
+.main-textoTituloConsultoria2 { 
+  font-size: 18px;  
+}
+
+.main-textoDescricaoConsultoria2 {  
+  font-size: 14px; 
+}
+
+.main-textoTituloConsultoria3 { 
+  font-size: 18px;   
+}
+
+.main-textoDescricaoConsultoria3 { 
+  font-size: 14px;  
+}
+
+/*MAIN - TERCEIRA SEÇÃO*/
+
+
+
+.texto-dourado { 
+  font-size: 20px;
+}
+
+.main-consultoriaDoisTexto {
+  font-size: 16px;    
+}
+
+.foto {  
+  padding-right: 80px;  
+  height: 344px;
+  width: 338px;
+}
+
+.foto1{  
+  padding-right: 80px;
+  margin-top: 10px;
+  height: 344px;
+  width: 338px;   
+}
+
+/*MAIN - COMO FUNCIONA A CONSULTORIA?*/
+
+.texto-cinza1{   
+  font-size: 30px; 
+}
+
+.fotoRedonda1{
+  border-radius: 100px;
+  width: 200px;
+}
+
+.main-consultoriaTres {
+  display: flex; 
+  justify-content: space-evenly;      
+}
+
+.diagnostico{ 
+  font-size: 20px;
+}
+
+.texto-ConsultoriaTres {
+  font-size: 14px;  
+}
+
+.main-button1 {  
+  font-size: 14px;  
+}
+
+.main-button2 { 
+  font-size: 14px;   
+  margin-top: 36px;
+}
+
+.main-button3 {
+  font-size: 14px;  
+  margin-top: 14px;  
+}
+
+/* MAIN - EBOOK GRATIS - 4*/
+
+.main-ebookgratis {
+  background-color: #616668;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;     
+}
+
+.texto-dourado5 {   
+  font-size: 32px;  
+}
+
+.main-ebookgratis-fotos2 {
+  margin-left: 70px;
+}
+
+.main-ebookgratis-texto1 {
+  color: #ffffff;  
+  font-family:'Releway'; 
+  padding-top: 30px;
+  padding-bottom: 20px; 
+  font-weight: 100; 
+  font-size: 14px;
+}
+
+.main-ebookgratis-texto1{
+  font-size: 22px; 
+  font-weight:500;
+}
+
+
+/* MAIN - EBOOK GRATIS - 4*/
+
+
+.texto-dourado5 {  
+  font-size: 30px;  
+}
+
+.main-ebookgratis-fotos {
+  display: flex;
+  justify-content: center;
+
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.main-ebookgratis-fotos1 {
+  margin-right: 70px;  
+}
+
+.main-ebookgratis-fotos2 {
+  margin-left: 70px;
+}
+
+.main-ebookgratis-texto1{
+  font-size: 20px; 
+  font-weight:500;
+}
+
+
+/* MAIN - CONTATO 5*/
+
+.texto-contato{ 
+  font-size: 30px;     
+}
+
+.main-texto-whatsapp{   
+  font-size: 20px;
+  margin-bottom: 10px;
+  margin-top: 16px;  
+}
+
+button {
+  height: 35px;
+  width: 260px;  
+  font-size: 14px; 
+  
+}
+
+/*PAGINA CONSULTORIA.HTML - MAIN*/
+
+.main-consultoria-principal {
+  background-color:#616668;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 180px;
+}
+
+.main-consultoria-h2 {
+  font-family:'Releway';
+  font-size: 36px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/*PAGINA CONSULTORIA.HTML - MAIN - 1 TEXTO CONTEUDO*/
+
+.main-consultoria-conteudo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;     
+
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.main-consultoria-conteudo-texto1{
+  font-family:'Releway';
+  font-size: 26px;
+  color:#616668 ;  
+}
+
+.main-consultoria-conteudo-texto2{
+  margin-top: 20px;
+}
+
+.main-consultoria-h4{
+  font-family:'Releway';
+  font-size: 18px;
+  text-align: center;
+}
+
+
+/*PAGINA CONSULTORIA.HTML - MAIN - 2 TEXTO CONTEUDO E IMAGEM*/
+
+
+.main-consultoria-secundaria{
+  background-color: #616668;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.main-consultoria-secundaria-foto{
+ margin-right: 40px;
+  margin-top: 50px;
+}
+
+.consultoria1{
+  width: 404px;
+}
+
+.main-consultoria-secundaria-textos{
+  margin-left: 0px;
+  
+}
+
+.main-consultoria-h3{
+  font-family:'Releway';
+  font-size: 26px;    
+  color:#f2e8c4;
+  padding-bottom: 20px;
+ 
+}
+
+.main-consultoria-h4-2{
+  font-family:'Releway';
+  font-size: 18px;
+  color:#ffffff;
+  font-weight: 100;  
+}
+
+/*PAGINA CONSULTORIA.HTML - MAIN - 3 TEXTO CONTEUDO E IMAGEM*/
+
+.main-consultoria-secundaria-dois{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 10px;
+  padding-right: 10px; 
+
+}
+
+.main-consultoria-secundaria-textos-dois{
+  margin-right: 0px;
+}
+
+.main-consultoria-h3-dois{
+  font-family:'Releway';
+  font-size: 26px;    
+  color:#616668;
+  margin-bottom: 30px;
+  margin-left: 10px;
+}
+
+.main-consultoria-h4-3{
+  font-family:'Releway';
+  font-size: 18px;
+
+  font-weight: 600;  
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.consultoria2{
+  width: 420px;
+}
+
+.main-consultoria-secundaria-foto2{
+  margin-left: 20px;
+  margin-top: 80px; 
+}
+
+/*PAGINA CONSULTORIA.HTML - MAIN - 4 TEXTO CONTEUDO E IMAGEM*/
+
+.main-consultoria-secundaria-tres{
+  background-color: #616668;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.consultoria3{
+  width: 395px;
+}
+
+
+.main-consultoria-secundaria-foto3{
+  margin-right: 20px;
+  margin-top: 75px;
+ 
+}
+
+.main-consultoria-secundaria-textos-tres{
+  margin-left: 40px;
+}
+
+.main-consultoria-h3-tres{
+  font-family:'Releway';
+  font-size: 26px;    
+  color:#f2e8c4;
+  margin-bottom: 30px;
+}
+
+.main-consultoria-h4-4{
+  font-family:'Releway';
+  font-size: 18px;
+
+  font-weight: 100;  
+  margin-top: 10px;
+
+  color: #ffffff;
+
+}
+
+/*PAGINA CONSULTORIA.HTML - MAIN - 5 TEXTO CONTEUDO E IMAGEM*/
+
+.main-consultoria-secundaria-quatro{
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  height: 150px;   
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.main-consultoria-secundaria-textos-quatro{
+  margin-left: 40px;
+  padding-top: 20px;
+}
+
+.main-consultoria-h3-quatro{
+  font-family:'Releway';
+  font-size: 22px;    
+  color:#616668;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.main-button4 {
+  background-color: #b4361f;
+  border: none;
+  border-radius: 20px;
+  height: 40px;
+  width: 260px;
+  box-shadow: 2px 5px 6px rgb(26, 25, 25);
+  font-size: 16px;
+  cursor: pointer;
+  
+}
+
+.main-consultoria-button{
+ padding-bottom: 10px;
+  padding-left: 100px;
+}
+
+
+
+}
