@@ -429,9 +429,10 @@ h1 {
   color: #2c2c2c;
   font-family: 'Releway';
   font-weight: 700;
-  height: 90px;
+  height: auto;
   font-size: 18px;
   padding-top: 20px;
+  padding-bottom: 16px;
   letter-spacing: 0.5px;
 }
 
