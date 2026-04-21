@@ -142,11 +142,13 @@
 
 .main-textoTituloConsultoria1 {
   color: #f2e8c4;
-  border-bottom: 0.1rem solid;  
-  height: 110px;
-  font-weight: 500;
-  font-size: 20px;
-  font-family: 'Releway';       
+  border-bottom: 1px solid rgba(242, 232, 196, 0.25);
+  height: auto;
+  padding-bottom: 16px;
+  margin-bottom: 4px;
+  font-weight: 600;
+  font-size: 17px;
+  font-family: 'Releway';
 }
 
 .main-textoDescricaoConsultoria1 {
@@ -168,11 +170,13 @@
 
 .main-textoTituloConsultoria2 {
   color: #f2e8c4;
-  border-bottom: 0.1rem solid; 
-  height: 80px;
-  font-weight: 500;
-  font-size: 20px;
-  font-family: 'Releway'; 
+  border-bottom: 1px solid rgba(242, 232, 196, 0.25);
+  height: auto;
+  padding-bottom: 16px;
+  margin-bottom: 4px;
+  font-weight: 600;
+  font-size: 17px;
+  font-family: 'Releway';
 }
 
 .main-textoDescricaoConsultoria2 {
@@ -196,12 +200,13 @@
 
 .main-textoTituloConsultoria3 {
   color: #f2e8c4;
-  border-bottom: 0.1rem solid; 
-  height: 110px;
-  font-weight: 500;
-  font-size: 20px;
-  font-family: 'Releway'; 
-  
+  border-bottom: 1px solid rgba(242, 232, 196, 0.25);
+  height: auto;
+  padding-bottom: 16px;
+  margin-bottom: 4px;
+  font-weight: 600;
+  font-size: 17px;
+  font-family: 'Releway';
 }
 .main-textoDescricaoConsultoria3 {
   color: #ffffff;
