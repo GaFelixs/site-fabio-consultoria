@@ -613,6 +613,7 @@ button:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 30px;
 
   padding-top: 50px;
   padding-bottom: 50px;
@@ -621,18 +622,17 @@ button:hover {
 }
 
 .main-consultoria-secundaria-foto{
-  margin-right: 0px;  
-  margin-top: 0px;
+  margin: 0;
 }
 
 .consultoria1{
-  width: 360px;
-  padding-left: 10px;
+  width: 100%;
+  max-width: 320px;
+  padding-left: 0;
 }
 
 .main-consultoria-secundaria-textos{
-  margin-left: 0px;
-  margin-top: 30px;  
+  margin: 0;
 }
 
 .main-consultoria-h3{
@@ -656,6 +656,7 @@ button:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 30px;
 
   padding-top: 50px;
   padding-bottom: 50px;
@@ -664,8 +665,7 @@ button:hover {
 }
 
 .main-consultoria-secundaria-textos-dois{
-  margin-right: 0px;
-  margin-top: 0px;
+  margin: 0;
 }
 
 .main-consultoria-h3-dois{
@@ -688,9 +688,7 @@ button:hover {
 }
 
 .main-consultoria-secundaria-foto2{
-  margin-right: 0px;
-  margin-top: 30px; 
-  margin-left: 0px;
+  margin: 0;
 }
 
 /*PAGINA CONSULTORIA.HTML - MAIN - 4 TEXTO CONTEUDO E IMAGEM*/
@@ -701,6 +699,7 @@ button:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 30px;
 
   padding-top: 50px;
   padding-bottom: 50px;
@@ -709,19 +708,16 @@ button:hover {
 }
 
 .consultoria3{
-  width: 360px;
+  width: 100%;
+  max-width: 320px;
 }
 
-
 .main-consultoria-secundaria-foto3{
-  margin-right: 0px;
-  margin-top:0px;
- 
+  margin: 0;
 }
 
 .main-consultoria-secundaria-textos-tres{
-  margin-left: 0px;
-  margin-top: 30px;
+  margin: 0;
 }
 
 .main-consultoria-h3-tres{
@@ -751,23 +747,23 @@ button:hover {
   justify-content: center;
   align-items: center;
   height: auto;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   padding-left: 24px;
   padding-right: 24px;
   gap: 24px;
 }
 
 .main-consultoria-secundaria-textos-quatro{
-  margin-left: 0px;
-  padding-top: 20px;
+  margin: 0;
+  padding: 0;
 }
 
 .main-consultoria-h3-quatro{
   font-family:'Releway';
-  font-size: 16px;    
+  font-size: 16px;
   color:#616668;
-  margin-bottom: 30px;
+  margin: 0;
   text-align: center;
 }
 
@@ -779,7 +775,7 @@ button:hover {
   height: auto;
   width: auto;
   box-shadow: none;
-  font-size: 8px;
+  font-size: 10px;
   letter-spacing: 1.5px;
   white-space: nowrap;
   color: #b4361f;
