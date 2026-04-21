@@ -784,6 +784,20 @@ button:hover {
   font-weight: 400;
 }
 
+.main-consultoria-h4 p,
+.main-consultoria-h4-2 p,
+.main-consultoria-h4-3 p,
+.main-consultoria-h4-4 p {
+  margin-bottom: 14px;
+}
+
+.main-consultoria-h4 p:last-child,
+.main-consultoria-h4-2 p:last-child,
+.main-consultoria-h4-3 p:last-child,
+.main-consultoria-h4-4 p:last-child {
+  margin-bottom: 0;
+}
+
 .main-consultoria-secundaria {
   background-color: #1a1a1a;
   display: flex;
