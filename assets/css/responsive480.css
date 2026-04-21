@@ -770,19 +770,27 @@ button:hover {
 }
 
 .main-button4 {
-  background-color: #b4361f;
-  border: none;
-  border-radius: 20px;
-  height: 30px;
-  width: 140px;
-  box-shadow: 2px 5px 6px rgb(26, 25, 25);
-  font-size: 14px;
+  background-color: transparent;
+  border: 2px solid #b4361f;
+  border-radius: 0;
+  padding: 14px 28px;
+  height: auto;
+  width: auto;
+  box-shadow: none;
+  font-size: 11px;
+  letter-spacing: 2px;
+  color: #b4361f;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   cursor: pointer;
 }
-  .main-consultoria-button {
-    padding-left: 10px;
 
-  }
+.main-consultoria-button {
+  padding-left: 0;
+  justify-content: center;
+}
 }
 
 
