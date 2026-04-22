@@ -316,21 +316,15 @@
                 </div>
 
                 <div>
-                    <form action="https://api.staticforms.xyz/submit" method="post">
-                        
+                    <form id="form-contato">
+
                         <input type="text" id="nome" name="nome" placeholder="Nome*" autocomplete="off" required>
-                       
+
                         <input type="email" id="email" name="email" placeholder="Email*" autocomplete="off" required>
-                        
-                        <input type="tel" id="telefone" name="telefone" placeholder="Telefone" >
-                     
+
+                        <input type="tel" id="telefone" name="telefone" placeholder="Telefone">
+
                         <textarea id="mensagem" name="mensagem" rows="4" required placeholder="Mensagem*"></textarea>
-
-                        <input type="hidden" name="redirectTo" value="https://fabioalfaiataria.com.br">
-
-                        <input type="hidden" name="accessKey" value="sf_188b85979akkc8j0lbhi8igm"> 
-
-                        
 
                         <button class="button-submit" type="submit">ENVIAR</button>
                     </form>
@@ -349,6 +343,21 @@
             </div>
         </section>
     </footer>
+
+    <script>
+        document.getElementById('form-contato').addEventListener('submit', function(e) {
+            e.preventDefault();
+            var nome = document.getElementById('nome').value;
+            var email = document.getElementById('email').value;
+            var telefone = document.getElementById('telefone').value;
+            var mensagem = document.getElementById('mensagem').value;
+            var texto = 'Olá Fábio! Me chamo ' + nome + '.' +
+                (telefone ? '\nTelefone: ' + telefone : '') +
+                '\nEmail: ' + email +
+                '\n\nMensagem: ' + mensagem;
+            window.open('https://wa.me/5581996351581?text=' + encodeURIComponent(texto), '_blank');
+        });
+    </script>
 
     <div class="whats">
         <a href="https://wa.me/5581996351581?text=%20SUA%20NOVA%20VERS%C3%83O%20COME%C3%87A%20COM%20ESTILO.%20%20%20%20%20%20%20%20%20PRONTO%20PARA%20SE%20TRANSFORMAR%3F" target="_blank">
